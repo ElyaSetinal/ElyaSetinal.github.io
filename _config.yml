@@ -1,0 +1,190 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 라영채 (Ra YoungChae)
+title: 
+email: yc.ra.elya@gmail.com
+website: velog.io/@lack12
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: facespics
+github_username: ElyaSetinal
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Simply Introduce 기본 정보
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  나이 : 31세 (1992년생)
+  
+  최종학력 : 4년제 대학 졸업
+
+  현 거주지 : 경기 화성시
+
+  병역사항 : 만기 전역(2012.03 - 2013.12) 
+
+  남들보다 늦게 시작했지만, 늦은 만큼 더 열정적으로, 더 열심히 달리는, 개발자를 꿈꾸는 라영채입니다.
+
+  데이터를 수집하고 그것을 다른 사람이 쉽게 이용할 수 있도록 가공하고 정리하는 것에 흥미가 많습니다.
+  
+  또한, 코드를 통하여 알고리즘을 구현하고, 동작하는 모습에 보람과 기쁨을 느낍니다. 기능을 구현하기위해 정보를 찾고, 배우면서 코드를 작성하고 시도하는, 그것이 저의 역량에 큰 바탕이 되어 줄 것이라는 생각을 가지고 있습니다.
+
+  다른 직군의 회사를 다녀보았던 경험이 있습니다. 이 경험은 저에게 커뮤니케이션의 중요성을 깨닫게하고, 업무의 효율성을 높히고 문제점을 개선하는 시야를 얻게해주었습니다.
+
+content:
+  - title: Work Experience 경력 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 대영산전(주)창원공장
+        link: www.dysj.co.kr
+        # link_text: boringcompany.com
+        sub_title: 기업부설연구소 연구원 / 제어기술부 대리
+        caption: 2018.05 - 2021.12(3년 8개월)
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            - 주요 업무
+              - R&D
+              - 사내제품 검사 장비 개발 및 아웃소싱 장비 개발 참여
+              - 제품 설계 및 프로그래밍
+
+      - layout: left
+        title: 포스PC방
+        link: 
+        # link_text: boringcompany.com
+        sub_title: 아르바이트 / 정직원
+        caption: 2014.09 - 2016.12(2년 3개월)
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            - 주요 업무
+              - 카운터 및 물품 재고 관리
+
+
+  - title: Stacks 기술 스택
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Language
+        caption: 
+        sub_title: 
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Used as the main : <mark>Python</mark>
+          - Used at least once : <mark>C</mark>, <mark>HTML</mark>, <mark>VBA</mark>
+
+      - layout: left
+        title: Framework
+        caption: 
+        sub_title: 
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Used as the main : <mark>Django</mark>
+          - Used at least once : <mark>TailwindCSS</mark>
+
+
+  - title: Education 학력 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 창원대학교
+        caption: 2011.03 - 2017.02
+        sub_title: 메카트로닉스공학부 제어계측공학과
+        quote: >
+          경남 창원 소재 4년제 대학교
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: left
+        title: 병점고등학교
+        caption: 2007.03 - 2010.02
+        sub_title: 이과
+        quote: >
+          경기도 화성 소재 고등학교
+        description: | # this will include new lines to allow paragraphs
+          
+
+  - title: Class 교육 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: (The Origin) 백엔드 개발자 취업 아카데미 with Django
+        caption: 2022.03 - 2022.05
+        sub_title: Project Lion
+        quote: >
+          Python과 Django를 이용한 백엔드 개발 교육
+        description: | # this will include new lines to allow paragraphs
+          - Python 독학중 학습 방향성이 기존 틀을 벗어나지 못한다고 느껴서 수강하였습니다.
+          - 격주로 진행되는 과제 및 Django를 적용한 개인 Toy Project를 수행하며 Django의 MVT 패턴 및 CRUD등 백엔드의 기초를 배웠습니다.
+          - Peer Group과의 상호 피드백을 통하여 다른 개발자와 협업하고, 커뮤니케이션의 중요성을 한번 더 느낀 시간이 되었습니다.
+
+
+  - title: Certificate 자격증/어학 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: COS pro
+        caption: 2021.03
+        sub_title: Python 2급
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          YBM 주관
+
+      - layout: left
+        title: Toeic
+        caption: 2022.03
+        sub_title: 680
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          LC 345, RC 335
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
