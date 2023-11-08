@@ -169,7 +169,7 @@ content:
         caption: 2023.05 - 2023.10
         sub_title: Multicampus
         quote: >
-          Python과 Django를 이용한 백엔드 개발 교육
+          Python기반 데이터 수집/처리/분석 학습
         description: | # this will include new lines to allow paragraphs
           - 데이터 분석가 및 엔지니어 교육과정 수료(5개월)
           - Oracle과 MySQL을 기반으로, RDB 및 SQL에 대한 기본적인 지식과, 데이터에 접근하는 방식을 경험
