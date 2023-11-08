@@ -165,17 +165,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: (The Origin) 백엔드 개발자 취업 아카데미 with Django
-        caption: 2022.03 - 2022.05
-        sub_title: Project Lion
-        quote: >
-          Python과 Django를 이용한 백엔드 개발 교육
-        description: | # this will include new lines to allow paragraphs
-          - 백엔드 개발자 교육과정 수료(2개월)
-          - Python과 Django를 이용하여 기초적인 DB 구성, 데이터의 입출력 및 MVT 패턴에서의 데이터 흐름을 배웠습니다.
-          - 기초적인 REST 방식과 REST API를 활용하여 CRUD를 구성하는 방법을 배웠습니다.
-
-      - layout: left
         title: (K-디지털)데이터 분석&엔지니어 취업캠프(Python) 26회차 
         caption: 2023.05 - 2023.10
         sub_title: Multicampus
@@ -186,6 +175,17 @@ content:
           - Oracle과 MySQL을 기반으로, RDB 및 SQL에 대한 기본적인 지식과, 데이터에 접근하는 방식을 경험
           - Python을 기반으로하여 데이터 수집, Matplotlib등을 활용한 데이터의 시각화 및 분석, scikit-learn을 활용한 머신러닝, keras를 활용한 딥러닝등을 배웠습니다.
           - Scala와 Spark, Hadoop을 활용한 대규모 데이터 분산 처리에 대한 기초를 배웠습니다.
+
+      - layout: left
+        title: (The Origin) 백엔드 개발자 취업 아카데미 with Django
+        caption: 2022.03 - 2022.05
+        sub_title: Project Lion
+        quote: >
+          Python과 Django를 이용한 백엔드 개발 교육
+        description: | # this will include new lines to allow paragraphs
+          - 백엔드 개발자 교육과정 수료(2개월)
+          - Python과 Django를 이용하여 기초적인 DB 구성, 데이터의 입출력 및 MVT 패턴에서의 데이터 흐름을 배웠습니다.
+          - 기초적인 REST 방식과 REST API를 활용하여 CRUD를 구성하는 방법을 배웠습니다.
 
 
   - title: Certificate 자격증/어학 # Title for the section
