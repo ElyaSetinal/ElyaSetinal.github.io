@@ -9,7 +9,7 @@ version: 2
 name: 라영채 (Ra YoungChae)
 title: 
 email: yc.ra.elya@gmail.com
-website: velog.io/@lack12
+# website: velog.io/@lack12
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -79,8 +79,9 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 주요 업무
               - R&D
-              - 사내제품 검사 장비 개발 및 아웃소싱 장비 개발 참여
-              - 제품 설계 및 프로그래밍
+              - 사내 생산 제품 검사 장비 및 아웃소싱 장비 개발 참여
+              - 제품 외형 설계(Autodesk Inventor 및 AutoCAD) 및 임베디드 프로그래밍(Code Composer Studio)
+              - 업무 진행 관리 및 자재 관리(MS-Office, VBA)
 
       - layout: left
         title: 포스PC방
@@ -106,7 +107,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           - Used as the main : <mark>Python</mark>
-          - Used at least once : <mark>C</mark>, <mark>HTML</mark>, <mark>VBA</mark>
+          - Used at least once : <mark>C</mark>, <mark>HTML</mark>, <mark>VBA</mark>, <mark>JavaScript</mark>
 
       - layout: left
         title: Framework
@@ -116,7 +117,27 @@ content:
           
         description: | # this will include new lines to allow paragraphs
           - Used as the main : <mark>Django</mark>
-          - Used at least once : <mark>TailwindCSS</mark>
+          - Used at least once : <mark>TailwindCSS</mark>, <mark>Apache Spark</mark>, <mark>Scikit-Learn</mark>, <mark>Tensorflow/Keras</mark>
+
+      - layout: left
+        title: Tools
+        caption: 
+        sub_title: 
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Used as the main : <mark>VSCode</mark>, <mark>Git</mark>
+          - Used at least once : <mark>Pycharm</mark>
+
+      - layout: left
+        title: DB
+        caption: 
+        sub_title: 
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Used as the main : <mark>MYSQL</mark>
+          - Used at least once : <mark>Oracle</mark>, <mark>MongoDB</mark>, <mark>SQLite</mark>
 
 
   - title: Education 학력 # Title for the section
@@ -139,6 +160,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           
 
+
   - title: Class 교육 # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -149,9 +171,21 @@ content:
         quote: >
           Python과 Django를 이용한 백엔드 개발 교육
         description: | # this will include new lines to allow paragraphs
-          - Python 독학중 학습 방향성이 기존 틀을 벗어나지 못한다고 느껴서 수강하였습니다.
-          - 격주로 진행되는 과제 및 Django를 적용한 개인 Toy Project를 수행하며 Django의 MVT 패턴 및 CRUD등 백엔드의 기초를 배웠습니다.
-          - Peer Group과의 상호 피드백을 통하여 다른 개발자와 협업하고, 커뮤니케이션의 중요성을 한번 더 느낀 시간이 되었습니다.
+          - 백엔드 개발자 교육과정 수료(2개월)
+          - Python과 Django를 이용하여 기초적인 DB 구성, 데이터의 입출력 및 MVT 패턴에서의 데이터 흐름을 배웠습니다.
+          - 기초적인 REST 방식과 REST API를 활용하여 CRUD를 구성하는 방법을 배웠습니다.
+
+      - layout: left
+        title: (K-디지털)데이터 분석&엔지니어 취업캠프(Python) 26회차 
+        caption: 2023.05 - 2023.10
+        sub_title: Multicampus
+        quote: >
+          Python과 Django를 이용한 백엔드 개발 교육
+        description: | # this will include new lines to allow paragraphs
+          - 데이터 분석가 및 엔지니어 교육과정 수료(5개월)
+          - Oracle과 MySQL을 기반으로, RDB 및 SQL에 대한 기본적인 지식과, 데이터에 접근하는 방식을 경험
+          - Python을 기반으로하여 데이터 수집, Matplotlib등을 활용한 데이터의 시각화 및 분석, scikit-learn을 활용한 머신러닝, keras를 활용한 딥러닝등을 배웠습니다.
+          - Scala와 Spark, Hadoop을 활용한 대규모 데이터 분산 처리에 대한 기초를 배웠습니다.
 
 
   - title: Certificate 자격증/어학 # Title for the section
